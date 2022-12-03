@@ -16,6 +16,6 @@ augroup TerminalLineNumbers
   autocmd TermOpen * setlocal nonumber norelativenumber
 augroup END
 
-autocmd filetype python nnoremap <C-p> :w <bar> vsplit <bar> exec 'term python '.shellescape('%')<CR> i
-autocmd filetype cpp nnoremap <C-p> :w <bar> vsplit <bar> exec 'term g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> i
-autocmd filetype c nnoremap <C-p> :w <bar> vsplit <bar> exec 'term gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> i
+autocmd filetype python nnoremap <C-e> :w <bar> vsplit <bar> exec 'term python '.shellescape('%')<CR> i
+autocmd filetype cpp nnoremap <C-e> :w <bar> vsplit <bar> exec 'term g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> i
+autocmd filetype c nnoremap <C-e> :w <bar> vsplit <bar> exec 'term gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> i
