@@ -9,7 +9,7 @@ call plug#end()
 set number
 set splitright
 nnoremap <C-t> :NERDTreeToggle<CR>
-inoremap <silent><expr> <TAB> coc#pum#confirm()
+inoremap <silent> <expr> <TAB> pumvisible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
 
 augroup TerminalLineNumbers
   au!
