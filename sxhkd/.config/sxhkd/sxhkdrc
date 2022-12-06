@@ -7,6 +7,9 @@ super + w
 super + d
         discord
 
+super + l
+    slock
+
 super + @space
 	rofi -show drun
 
