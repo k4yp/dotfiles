@@ -4,8 +4,11 @@ super + Return
 super + w
 	brave
 
+super + e
+    thunar
+
 super + d
-        discord
+    discord
 
 super + l
     slock
