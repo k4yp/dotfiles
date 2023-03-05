@@ -5,12 +5,12 @@ super + w
 	brave
 
 super + e
-    thunar
+    nautilus
 
 super + d
     discord
 
-super + l
+super + shift + l
     slock
 
 super + @space
