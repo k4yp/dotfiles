@@ -69,8 +69,8 @@ super + {o,i}
 	bspc node {older,newer} -f; \
 	bspc wm -h on
 
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+super + {_,shift + }{0,1,2,3,4,5,6,7,8,9}
+	bspc {desktop -f,node -d} '^{1,2,3,4,5,6,7,8,9,10}'
 
 super + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
