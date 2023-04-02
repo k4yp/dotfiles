@@ -5,13 +5,16 @@ super + w
 	brave
 
 super + e
-    nautilus
+    thunar
 
 super + d
     discord
 
 super + shift + l
     slock
+
+super + period
+    rofimoji
 
 super + @space
 	rofi -show drun
@@ -26,7 +29,7 @@ super + q
 	bspc node -c
 
 super + m
-	bspc desktop -l next
+	tauon
 
 super + y
 	bspc node newest.marked.local -n newest.!automatic.local
@@ -41,7 +44,7 @@ super + {t,shift + t,s}
 	bspc node -t {tiled,pseudo_tiled,floating}
 
 super + f
-	bspc desktop -l next
+	bspc node -t \~fullscreen
 
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
