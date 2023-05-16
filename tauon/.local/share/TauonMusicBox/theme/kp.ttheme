@@ -1,0 +1,18 @@
+0,0,0 player background (top panel)
+0,0,0 playlist panel
+0,0,0 side panel
+0,0,0 bottom panel
+0,0,0 gallery background
+
+255,0,128       index playing
+165,194,97		artist playing
+255,198,109		album playing
+
+255,198,109		album line
+255,0,128       track index
+102,204,255		track artist
+
+0,0,0     window buttons on
+0,0,0     window buttons icon off
+0,0,0     window buttons icon over
+0,0,0     window button x on

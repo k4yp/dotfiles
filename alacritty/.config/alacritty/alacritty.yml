@@ -1,10 +1,7 @@
 colors:
-    # Default colors
     primary:
         background: '0x000000'
-        foreground: '0xeaeaea'
-
-    # Normal colors
+        foreground: '0xFFFFFF'
     normal:
         black: '0x000000'
         red: '0x5e0a06'
@@ -14,8 +11,6 @@ colors:
         magenta: '0x6f0037'
         cyan: '0x66ccff'
         white: '0x4d5057'
-
-    # Bright colors
     bright:
         black: '0x000000'
         red: '0xda4939'
@@ -25,10 +20,10 @@ colors:
         magenta: '0xff0080'
         cyan: '0x66ffcc'
         white: '0xc5c8c6'
-opacity: 0.5
+
 font:
     normal:
-        family: Cousine Nerd Font Mono
+        family: terminus
 window:
     padding:
         x: 8
