@@ -1,6 +1,8 @@
 # Dotfiles
 Monorepo for all my current dotfiles
 
+![screenshot](dev.png)
+
 # Installation
 Go into the cloned repo and run `stow *`
 
