@@ -1,3 +1,10 @@
+" znake - Full Colour and 256 Colour
+" http://www.artathack.com
+"
+" Hex colour conversion functions borrowed from the theme "Desert256""
+" Pretty much stolen from the Tomorrow theme https://github.com/chriskempson/tomorrow-theme
+
+" Default GUI Colours
 let s:white      = "eaeaea"
 let s:black      = "000000"
 let s:red        = "da4939"
@@ -42,6 +49,7 @@ syntax reset
 let g:colors_name = "znake"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
+	" Returns an approximate grey index for the given grey level
 	fun <SID>grey_number(x)
 		if &t_Co == 88
 			if a:x < 23
@@ -80,6 +88,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns the actual grey level represented by the grey index
 	fun <SID>grey_level(n)
 		if &t_Co == 88
 			if a:n == 0
@@ -112,6 +121,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns the palette index for the given grey index
 	fun <SID>grey_colour(n)
 		if &t_Co == 88
 			if a:n == 0
@@ -132,6 +142,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns an approximate colour index for the given colour level
 	fun <SID>rgb_number(x)
 		if &t_Co == 88
 			if a:x < 69
@@ -158,6 +169,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns the actual colour level for the given colour index
 	fun <SID>rgb_level(n)
 		if &t_Co == 88
 			if a:n == 0
@@ -178,6 +190,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns the palette index for the given R/G/B colour indices
 	fun <SID>rgb_colour(x, y, z)
 		if &t_Co == 88
 			return 16 + (a:x * 16) + (a:y * 4) + a:z
@@ -186,16 +199,20 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Returns the palette index to approximate the given R/G/B colour levels
 	fun <SID>colour(r, g, b)
+		" Get the closest grey
 		let l:gx = <SID>grey_number(a:r)
 		let l:gy = <SID>grey_number(a:g)
 		let l:gz = <SID>grey_number(a:b)
 
+		" Get the closest colour
 		let l:x = <SID>rgb_number(a:r)
 		let l:y = <SID>rgb_number(a:g)
 		let l:z = <SID>rgb_number(a:b)
 
 		if l:gx == l:gy && l:gy == l:gz
+			" There are two possibilities
 			let l:dgr = <SID>grey_level(l:gx) - a:r
 			let l:dgg = <SID>grey_level(l:gy) - a:g
 			let l:dgb = <SID>grey_level(l:gz) - a:b
@@ -205,15 +222,19 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 			let l:db = <SID>rgb_level(l:gz) - a:b
 			let l:drgb = (l:dr * l:dr) + (l:dg * l:dg) + (l:db * l:db)
 			if l:dgrey < l:drgb
+				" Use the grey
 				return <SID>grey_colour(l:gx)
 			else
+				" Use the colour
 				return <SID>rgb_colour(l:x, l:y, l:z)
 			endif
 		else
+			" Only one possibility
 			return <SID>rgb_colour(l:x, l:y, l:z)
 		endif
 	endfun
 
+	" Returns the palette index to approximate the 'rrggbb' hex string
 	fun <SID>rgb(rgb)
 		let l:r = ("0x" . strpart(a:rgb, 0, 2)) + 0
 		let l:g = ("0x" . strpart(a:rgb, 2, 2)) + 0
@@ -222,6 +243,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		return <SID>colour(l:r, l:g, l:b)
 	endfun
 
+	" Sets the highlighting for the given group
 	fun <SID>X(group, fg, bg, attr)
 		if a:fg != ""
 			exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=" . <SID>rgb(a:fg)
@@ -234,6 +256,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		endif
 	endfun
 
+	" Vim Highlighting
 	call <SID>X("Normal", s:white, s:black, "")
 	call <SID>X("darkgreyNr", s:grey1, "", "")
 	call <SID>X("NonText", s:darkred, "", "")
@@ -243,7 +266,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Statusdarkgrey", s:grey2, s:yellow, "reverse")
 	call <SID>X("StatusdarkgreyNC", s:grey2, s:grey3, "reverse")
 	call <SID>X("VertSplit", s:middlegrey, s:middlegrey, "none")
-    call <SID>X("Visual", "", s:darkpink, "")
+  call <SID>X("Visual", "", s:darkpink, "")
 	"call <SID>X("Visual", "", s:black, "reverse")
 	call <SID>X("Directory", s:blue, "", "")
 	call <SID>X("ModeMsg", s:green, "", "")
@@ -272,6 +295,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("DiffText", "", s:difftext, "")
   call <SID>X("DiffDelete", s:diffred, s:diffred, "")
 
+
+	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "")
 	call <SID>X("Todo", s:comment, s:black, "")
 	call <SID>X("Title", s:white, "", "")
@@ -382,3 +407,4 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	delf <SID>grey_level
 	delf <SID>grey_number
 endif
+

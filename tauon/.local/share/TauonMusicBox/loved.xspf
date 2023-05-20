@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+    <track>
+      <title>Rich Flex</title>
+      <location>/home/aiden/Music/Drake/Her Loss/01. Rich Flex.flac</location>
+      <creator>Drake</creator>
+      <album>Her Loss</album>
+      <duration>239359</duration>
+    </track>
+    <track>
+      <title>On BS</title>
+      <location>/home/aiden/Music/Drake/Her Loss/03. On BS.flac</location>
+      <creator>Drake</creator>
+      <album>Her Loss</album>
+      <duration>261543</duration>
+    </track>
+    <track>
+      <title>BALD!</title>
+      <location>/home/aiden/Music/JPEGMAFIA/EP!/JPEGMAFIA - EP! - 01 BALD!.flac</location>
+      <creator>JPEGMAFIA</creator>
+      <album>EP!</album>
+      <duration>180417</duration>
+    </track>
+    <track>
+      <title>TRUST!</title>
+      <location>/home/aiden/Music/JPEGMAFIA/LP!/JPEGMAFIA - LP! - 01 TRUST!.flac</location>
+      <creator>JPEGMAFIA</creator>
+      <album>LP!</album>
+      <duration>135662</duration>
+    </track>
+    <track>
+      <title>DIRTY!</title>
+      <location>/home/aiden/Music/JPEGMAFIA/LP!/JPEGMAFIA - LP! - 02 DIRTY!.flac</location>
+      <creator>JPEGMAFIA</creator>
+      <album>LP!</album>
+      <duration>119197</duration>
+    </track>
+    <track>
+      <title>Off The Grid</title>
+      <location>/home/aiden/Music/Kanye West/Donda/04 Off The Grid.flac</location>
+      <creator>Kanye West</creator>
+      <album>Donda</album>
+      <duration>339249</duration>
+    </track>
+    <track>
+      <title>Hurricane</title>
+      <location>/home/aiden/Music/Kanye West/Donda/05 Hurricane.flac</location>
+      <creator>Kanye West</creator>
+      <album>Donda</album>
+      <duration>243187</duration>
+    </track>
+    <track>
+      <title>Praise God</title>
+      <location>/home/aiden/Music/Kanye West/Donda/06 Praise God.flac</location>
+      <creator>Kanye West</creator>
+      <album>Donda</album>
+      <duration>226652</duration>
+    </track>
+    <track>
+      <title>Believe What I Say</title>
+      <location>/home/aiden/Music/Kanye West/Donda/10 Believe What I Say.flac</location>
+      <creator>Kanye West</creator>
+      <album>Donda</album>
+      <duration>242400</duration>
+    </track>
+    <track>
+      <title>Good Morning</title>
+      <location>/home/aiden/Music/Kanye West/Graduation/01 Good Morning.flac</location>
+      <creator>Kanye West</creator>
+      <album>Graduation</album>
+      <duration>195093</duration>
+    </track>
+    <track>
+      <title>Stronger</title>
+      <location>/home/aiden/Music/Kanye West/Graduation/03 Stronger.flac</location>
+      <creator>Kanye West</creator>
+      <album>Graduation</album>
+      <duration>311866</duration>
+    </track>
+    <track>
+      <title>I Wonder</title>
+      <location>/home/aiden/Music/Kanye West/Graduation/04 I Wonder.flac</location>
+      <creator>Kanye West</creator>
+      <album>Graduation</album>
+      <duration>243440</duration>
+    </track>
+    <track>
+      <title>Good Life</title>
+      <location>/home/aiden/Music/Kanye West/Graduation/05 Good Life.flac</location>
+      <creator>Kanye West feat. T‐Pain</creator>
+      <album>Graduation</album>
+      <duration>207000</duration>
+    </track>
+    <track>
+      <title>Flashing Lights</title>
+      <location>/home/aiden/Music/Kanye West/Graduation/09 Flashing Lights.flac</location>
+      <creator>Kanye West</creator>
+      <album>Graduation</album>
+      <duration>237506</duration>
+    </track>
+    <track>
+      <title>Power</title>
+      <location>/home/aiden/Music/Kanye West/My Beautiful Dark Twisted Fantasy/03 POWER.flac</location>
+      <creator>Kanye West</creator>
+      <album>My Beautiful Dark Twisted Fantasy</album>
+      <duration>292093</duration>
+    </track>
+    <track>
+      <title>All Of The Lights</title>
+      <location>/home/aiden/Music/Kanye West/My Beautiful Dark Twisted Fantasy/05 All Of The Lights.flac</location>
+      <creator>Kanye West</creator>
+      <album>My Beautiful Dark Twisted Fantasy</album>
+      <duration>299786</duration>
+    </track>
+    <track>
+      <title>Devil in a New Dress</title>
+      <location>/home/aiden/Music/Kanye West/My Beautiful Dark Twisted Fantasy/08 Devil In A New Dress (feat. Rick Ross).flac</location>
+      <creator>Kanye West feat. Rick Ross</creator>
+      <album>My Beautiful Dark Twisted Fantasy</album>
+      <duration>352466</duration>
+    </track>
+    <track>
+      <title>Dna.</title>
+      <location>/home/aiden/Music/Kendrick Lamar/DAMN./02 - Dna.flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>Damn.</album>
+      <duration>185946</duration>
+    </track>
+    <track>
+      <title>Pride.</title>
+      <location>/home/aiden/Music/Kendrick Lamar/DAMN./07 - Pride.flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>Damn.</album>
+      <duration>275253</duration>
+    </track>
+    <track>
+      <title>Humble.</title>
+      <location>/home/aiden/Music/Kendrick Lamar/DAMN./08 - Humble.flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>Damn.</album>
+      <duration>177000</duration>
+    </track>
+    <track>
+      <title>XXX.</title>
+      <location>/home/aiden/Music/Kendrick Lamar/DAMN./11 - XXX.flac</location>
+      <creator>Kendrick Lamar; U2</creator>
+      <album>Damn.</album>
+      <duration>254200</duration>
+    </track>
+    <track>
+      <title>Duckworth.</title>
+      <location>/home/aiden/Music/Kendrick Lamar/DAMN./14 - Duckworth.flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>Damn.</album>
+      <duration>248613</duration>
+    </track>
+    <track>
+      <title>Wesley's Theory (Feat. George Clinton &amp; Thundercat)</title>
+      <location>/home/aiden/Music/Kendrick Lamar/To Pimp A Butterfly/01 Wesley's Theory (Feat. George Clinton &amp; Thundercat).flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>To Pimp A Butterfly</album>
+      <duration>287360</duration>
+    </track>
+    <track>
+      <title>Alright</title>
+      <location>/home/aiden/Music/Kendrick Lamar/To Pimp A Butterfly/07 Alright.flac</location>
+      <creator>Kendrick Lamar</creator>
+      <album>To Pimp A Butterfly</album>
+      <duration>219333</duration>
+    </track>
+    <track>
+      <title>Gazzillion Ear</title>
+      <location>/home/aiden/Music/MF DOOM/Born Like This/02 - Gazillion Ear.flac</location>
+      <creator>DOOM</creator>
+      <album>Born Like This</album>
+      <duration>251920</duration>
+    </track>
+    <track>
+      <title>That’s That</title>
+      <location>/home/aiden/Music/MF DOOM/Born Like This/14 - Thats That.flac</location>
+      <creator>DOOM</creator>
+      <album>Born Like This</album>
+      <duration>135066</duration>
+    </track>
+    <track>
+      <title>Accordion</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/02 - Accordion.flac</location>
+      <creator>Madvillain</creator>
+      <album>Madvillainy</album>
+      <duration>117853</duration>
+    </track>
+    <track>
+      <title>Meat Grinder</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/03 - Meat Grinder.flac</location>
+      <creator>Madvillain</creator>
+      <album>Madvillainy</album>
+      <duration>131840</duration>
+    </track>
+    <track>
+      <title>Raid</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/05 - Raid.flac</location>
+      <creator>Madvillain feat. MED</creator>
+      <album>Madvillainy</album>
+      <duration>150600</duration>
+    </track>
+    <track>
+      <title>Curls</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/09 - Curls.flac</location>
+      <creator>Madvillain</creator>
+      <album>Madvillainy</album>
+      <duration>95560</duration>
+    </track>
+    <track>
+      <title>Figaro</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/14 - Figaro.flac</location>
+      <creator>Madvillain</creator>
+      <album>Madvillainy</album>
+      <duration>145386</duration>
+    </track>
+    <track>
+      <title>Fancy Clown</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/17 - Fancy Clowns.flac</location>
+      <creator>Madvillain feat. Viktor Vaughn</creator>
+      <album>Madvillainy</album>
+      <duration>115800</duration>
+    </track>
+    <track>
+      <title>All Caps</title>
+      <location>/home/aiden/Music/MF DOOM/Madvillainy/20 - All Caps.flac</location>
+      <creator>Madvillain</creator>
+      <album>Madvillainy</album>
+      <duration>130426</duration>
+    </track>
+    <track>
+      <title>Beef Rapp</title>
+      <location>/home/aiden/Music/MF DOOM/Mm.. Food/01 - MF Doom - Beef Rapp.flac</location>
+      <creator>MF DOOM</creator>
+      <album>MM.. FOOD</album>
+      <duration>279666</duration>
+    </track>
+    <track>
+      <title>One Beer</title>
+      <location>/home/aiden/Music/MF DOOM/Mm.. Food/04 - MF Doom - One Beer.flac</location>
+      <creator>MF DOOM</creator>
+      <album>MM.. FOOD</album>
+      <duration>258586</duration>
+    </track>
+    <track>
+      <title>Rapp Snitch Knishes ft. Mr. Fantastik</title>
+      <location>/home/aiden/Music/MF DOOM/Mm.. Food/13 - MF Doom - Rapp Snitch Knishes ft. Mr. Fantastik.flac</location>
+      <creator>MF DOOM</creator>
+      <album>MM.. FOOD</album>
+      <duration>172893</duration>
+    </track>
+    <track>
+      <title>Doomsday</title>
+      <location>/home/aiden/Music/MF DOOM/Operation Doomsday/02 - Doomsday.flac</location>
+      <creator>MF DOOM</creator>
+      <album>Operation: Doomsday</album>
+      <duration>298053</duration>
+    </track>
+    <track>
+      <title>Rhymes Like Dimes</title>
+      <location>/home/aiden/Music/MF DOOM/Operation Doomsday/03 - Rhymes Like Dimes.flac</location>
+      <creator>MF DOOM feat. Cucumber Slice</creator>
+      <album>Operation: Doomsday</album>
+      <duration>258613</duration>
+    </track>
+    <track>
+      <title>Luv (Sic) (feat Shing02)</title>
+      <location>/home/aiden/Music/Nujabes/Luv (Sic)/06 Luv (Sic) (feat Shing02).flac</location>
+      <creator>Nujabes</creator>
+      <album>Hydeout Productions (First Collection)</album>
+      <duration>288760</duration>
+    </track>
+    <track>
+      <title>Luv (Sic) Part 2 (feat Shing02)</title>
+      <location>/home/aiden/Music/Nujabes/Luv (Sic)/14 Luv (Sic) Part 2 (feat Shing02).flac</location>
+      <creator>Nujabes</creator>
+      <album>Hydeout Productions (First Collection)</album>
+      <duration>274733</duration>
+    </track>
+    <track>
+      <title>Long Time (intro)</title>
+      <location>/home/aiden/Music/Playboi Carti/Die Lit/01. Long Time (Intro).flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Die Lit</album>
+      <duration>211773</duration>
+    </track>
+    <track>
+      <title>R.I.P.</title>
+      <location>/home/aiden/Music/Playboi Carti/Die Lit/02. R.I.P.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Die Lit</album>
+      <duration>192026</duration>
+    </track>
+    <track>
+      <title>Fell in Luv</title>
+      <location>/home/aiden/Music/Playboi Carti/Die Lit/10. Fell In Luv.flac</location>
+      <creator>Playboi Carti feat. Bryson Tiller</creator>
+      <album>Die Lit</album>
+      <duration>206333</duration>
+    </track>
+    <track>
+      <title>FlatBed Freestyle</title>
+      <location>/home/aiden/Music/Playboi Carti/Die Lit/14. FlatBed Freestyle.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Die Lit</album>
+      <duration>193973</duration>
+    </track>
+    <track>
+      <title>Rockstar Made</title>
+      <location>/home/aiden/Music/Playboi Carti/Whole Lotta Red/01. Rockstar Made.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Whole Lotta Red</album>
+      <duration>193574</duration>
+    </track>
+    <track>
+      <title>Stop Breathing</title>
+      <location>/home/aiden/Music/Playboi Carti/Whole Lotta Red/03. Stop Breathing.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Whole Lotta Red</album>
+      <duration>218943</duration>
+    </track>
+    <track>
+      <title>New Tank</title>
+      <location>/home/aiden/Music/Playboi Carti/Whole Lotta Red/09. New Tank.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Whole Lotta Red</album>
+      <duration>89741</duration>
+    </track>
+    <track>
+      <title>Sky</title>
+      <location>/home/aiden/Music/Playboi Carti/Whole Lotta Red/19. Sky.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Whole Lotta Red</album>
+      <duration>193234</duration>
+    </track>
+    <track>
+      <title>ILoveUIHateU</title>
+      <location>/home/aiden/Music/Playboi Carti/Whole Lotta Red/21. ILoveUIHateU.flac</location>
+      <creator>Playboi Carti</creator>
+      <album>Whole Lotta Red</album>
+      <duration>135122</duration>
+    </track>
+    <track>
+      <title>Let It Happen</title>
+      <location>/home/aiden/Music/Tame Impala/Currents/Let It Happen.mp3</location>
+      <creator>Tame Impala</creator>
+      <album>Currents (Vinyl)</album>
+      <duration>469100</duration>
+    </track>
+    <track>
+      <title>New Person, Same Old Mistakes</title>
+      <location>/home/aiden/Music/Tame Impala/Currents/New Person, Same Old Mistakes.mp3</location>
+      <creator>Tame Impala</creator>
+      <album>Currents (Vinyl)</album>
+      <duration>362200</duration>
+    </track>
+    <track>
+      <title>The Less I Know the Better</title>
+      <location>/home/aiden/Music/Tame Impala/Currents/The Less I Know the Better.mp3</location>
+      <creator>Tame Impala</creator>
+      <album>Currents (Vinyl)</album>
+      <duration>215700</duration>
+    </track>
+    <track>
+      <title>Borderline</title>
+      <location>/home/aiden/Music/Tame Impala/The Slow Rush/03-tame_impala-borderline.flac</location>
+      <creator>Tame Impala</creator>
+      <album>The Slow Rush</album>
+      <duration>237800</duration>
+    </track>
+    <track>
+      <title>Save Your Tears</title>
+      <location>/home/aiden/Music/The Weeknd/01. The Weeknd - Save Your Tears.flac</location>
+      <creator>The Weeknd</creator>
+      <album>The Highlights</album>
+      <duration>215627</duration>
+    </track>
+    <track>
+      <title>Starboy</title>
+      <location>/home/aiden/Music/The Weeknd/06. The Weeknd, Daft Punk - Starboy.flac</location>
+      <creator>The Weeknd, Daft Punk</creator>
+      <album>The Highlights</album>
+      <duration>230461</duration>
+    </track>
+    <track>
+      <title>Pray For Me</title>
+      <location>/home/aiden/Music/The Weeknd/07. The Weeknd, Kendrick Lamar - Pray For Me.flac</location>
+      <creator>The Weeknd, Kendrick Lamar</creator>
+      <album>The Highlights</album>
+      <duration>211420</duration>
+    </track>
+    <track>
+      <title>Heartless</title>
+      <location>/home/aiden/Music/The Weeknd/08. The Weeknd - Heartless.flac</location>
+      <creator>The Weeknd</creator>
+      <album>The Highlights</album>
+      <duration>198267</duration>
+    </track>
+    <track>
+      <title>The Hills</title>
+      <location>/home/aiden/Music/The Weeknd/10. The Weeknd - The Hills.flac</location>
+      <creator>The Weeknd</creator>
+      <album>The Highlights</album>
+      <duration>242290</duration>
+    </track>
+    <track>
+      <title>EARFQUAKE</title>
+      <location>/home/aiden/Music/Tyler, The Creator/IGOR/02 - EARFQUAKE.flac</location>
+      <creator>Tyler, The Creator</creator>
+      <album>IGOR</album>
+      <duration>190066</duration>
+    </track>
+    <track>
+      <title>A BOY IS A GUN</title>
+      <location>/home/aiden/Music/Tyler, The Creator/IGOR/07 - A BOY IS A GUN.flac</location>
+      <creator>Tyler, The Creator</creator>
+      <album>IGOR</album>
+      <duration>210253</duration>
+    </track>
+  </trackList>
+</playlist>
+

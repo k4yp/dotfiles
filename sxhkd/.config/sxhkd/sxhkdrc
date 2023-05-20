@@ -31,6 +31,9 @@ super + period
 super + @space
 	rofi -show drun
 
+super + r
+    bspc node -f @parent; bspc node -R 90
+
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
