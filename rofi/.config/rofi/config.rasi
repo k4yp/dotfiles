@@ -1,0 +1,49 @@
+configuration {
+    drun-display-format: "{name}";
+}
+mainbox {
+    children: [ "inputbar", "listview" ];
+}
+*{
+  background-color: #000000;
+  foreground-color: #f8f8f2;
+  text-color: #ffffff;
+  border: 0px;
+}
+#window{
+    background-color: #000000;
+    foreground-color: #000000;
+    border: 1px;
+    border-color: #ffffff;
+    width: 700px;
+}
+prompt {
+   enabled: false;
+}
+entry{
+    color:white;
+}
+#inputbar {
+    text-color: #ffffff;
+}
+#element.normal.normal{
+    text-color: #ffffff;
+    background-color: #000000;
+    foreground-color: #000000;
+}
+#element.selected.normal{
+    text-color: #000000;
+    background-color: #ffffff;
+}
+message{
+    color: #ffffff;
+}
+#element.alternate.normal{
+    text-color: #ffffff;
+    background-color: #000000;
+    foreground-color: #000000;
+}
+listview {
+    scrollbar: false;
+    border: 0;
+}
