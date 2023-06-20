@@ -1,10 +1,3 @@
-" znake - Full Colour and 256 Colour
-" http://www.artathack.com
-"
-" Hex colour conversion functions borrowed from the theme "Desert256""
-" Pretty much stolen from the Tomorrow theme https://github.com/chriskempson/tomorrow-theme
-
-" Default GUI Colours
 let s:white      = "eaeaea"
 let s:black      = "000000"
 let s:red        = "da4939"
@@ -13,7 +6,6 @@ let s:orange     = "ffc66d"
 let s:brown      = "cc7833"
 let s:yellow     = "ffc66d"
 let s:green      = "a5c261"
-"let s:green     = "87af00"
 let s:darkgreen  = "519f50"
 let s:blue       = "6d9cbe"
 let s:purple     = "c397d8"
@@ -42,11 +34,6 @@ let s:wikiaqua   = "66ffcc"
 let s:wikigreen  = "008040"
 let s:wikiblue   = "66ccff"
 
-set background=dark
-hi clear
-syntax reset
-
-let g:colors_name = "znake"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Returns an approximate grey index for the given grey level
@@ -267,13 +254,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("StatusdarkgreyNC", s:grey2, s:grey3, "reverse")
 	call <SID>X("VertSplit", s:middlegrey, s:middlegrey, "none")
   call <SID>X("Visual", "", s:darkpink, "")
-	"call <SID>X("Visual", "", s:black, "reverse")
 	call <SID>X("Directory", s:blue, "", "")
 	call <SID>X("ModeMsg", s:green, "", "")
 	call <SID>X("MoreMsg", s:green, "", "")
 	call <SID>X("Question", s:green, "", "")
 	call <SID>X("WarningMsg", s:red, "", "")
-	call <SID>X("MatchParen", "", s:black, "reverse")
+	call <SID>X("MatchParen", s:darkred, s:white, "reverse")
 	call <SID>X("Folded", s:comment, s:black, "")
 	call <SID>X("FoldColumn", "", s:black, "")
 	if version >= 700
@@ -286,19 +272,14 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		call <SID>X("PMenu", s:white, s:darkred, "none")
 		call <SID>X("PMenuSel", s:white, s:darkred, "reverse")
 	end
-	if version >= 703
-		call <SID>X("ColorColumn", "", s:darkgrey, "none")
-	end
 
-  call <SID>X("DiffAdd", "", s:diffgreen, "")
-  call <SID>X("DiffChange", "",s:diffchange, "")
-  call <SID>X("DiffText", "", s:difftext, "")
-  call <SID>X("DiffDelete", s:diffred, s:diffred, "")
+    call <SID>X("DiffAdd", "", s:diffgreen, "")
+    call <SID>X("DiffChange", "",s:diffchange, "")
+    call <SID>X("DiffText", "", s:difftext, "")
+    call <SID>X("DiffDelete", s:diffred, s:diffred, "")
 
-
-	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "")
-	call <SID>X("Todo", s:comment, s:black, "")
+    call <SID>X("Todo", s:comment, s:black, "")
 	call <SID>X("Title", s:white, "", "")
 	call <SID>X("Identifier", s:blue, "", "none")
 	call <SID>X("Statement", s:white, "", "")
@@ -314,97 +295,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Type", s:blue, "", "none")
 	call <SID>X("Define", s:brown, "", "none")
 	call <SID>X("Include", s:blue, "", "")
-  call <SID>X("Ignore", "666666", "", "")
-  call <SID>X("Keyword", s:orange, "", "")
-  call <SID>X("Conditional", s:brown, "", "")
-	"call <SID>X("Keyword", s:red, s:black, "")
-	"call <SID>X("Conditional", s:white, "", "")
-
-	" Vim Highlighting
-  call <SID>X("vimCommand", s:white, "", "none")
-
-	" C Highlighting
-	call <SID>X("cType", s:yellow, "", "")
-	call <SID>X("cStorageClass", s:purple, "", "")
-	call <SID>X("cConditional", s:purple, "", "")
-	call <SID>X("cRepeat", s:purple, "", "")
-
-	" PHP Highlighting
-	call <SID>X("phpVarSelector", s:red, "", "")
-	call <SID>X("phpKeyword", s:purple, "", "")
-	call <SID>X("phpRepeat", s:purple, "", "")
-	call <SID>X("phpConditional", s:purple, "", "")
-	call <SID>X("phpStatement", s:purple, "", "")
-	call <SID>X("phpMemberSelector", s:white, "", "")
-
-	" CoffeeScript Highlighting
-	call <SID>X("coffeeInterpDelim", s:darkgreen, "", "")
-	call <SID>X("SignColumn", "", s:black, "")
-
-	" Ruby Highlighting
-	call <SID>X("rubySymbol", s:blue, "", "")
-	call <SID>X("rubyConstant", s:red, "", "")
-	call <SID>X("rubyKeyword", s:red, "", "")
-	call <SID>X("rubyBeginEnd", s:brown, "", "")
-	call <SID>X("rubyAttribute", s:brown, "", "")
-	call <SID>X("rubyControl", s:brown, "", "")
-	call <SID>X("rubyInclude", s:blue, "", "")
-	call <SID>X("rubyLocalVariableOrMethod", s:brown, "", "")
-	call <SID>X("rubyStringDelimiter", s:green, "", "")
-  call <SID>X("rubyInterpolation", s:darkgreen, "", "")
-	call <SID>X("rubyInterpolationDelimiter", s:darkgreen, "", "")
-  call <SID>X("rubyConditional", s:brown, "", "")
-	call <SID>X("rubyRepeat", s:brown, "", "")
-  call <SID>X("rubyBlockParameter", s:purple, "", "")
-  call <SID>X("rubyClass", s:brown, "", "")
-  call <SID>X("rubyClassVariable", s:red, "", "")
-  call <SID>X("rubyFunction", s:orange, "", "")
-  call <SID>X("rubyInstanceVariable", s:instance, "", "")
-  call <SID>X("railsClass", s:red, "", "")
-  "call <SID>X("rubyBlock", s:brown, "", "")
-  "call <SID>X("rubyDoBlock", s:brown, "", "")
-
-	" Python Highlighting
-	call <SID>X("pythonInclude", s:purple, "", "")
-	call <SID>X("pythonStatement", s:purple, "", "")
-	call <SID>X("pythonConditional", s:purple, "", "")
-	call <SID>X("pythonFunction", s:blue, "", "")
-
-	" JavaScript Highlighting
-	"call <SID>X("javaScriptBraces", s:white, "", "")
-  call <SID>X("javaScriptFunction", s:brown, "", "")
-  call <SID>X("javaScriptNumber", s:yellow, "", "")
-  call <SID>X("javaScriptThis", s:red, "", "")
-
-	" HTML Highlighting
-	call <SID>X("htmlTag", s:orange, "", "")
-	call <SID>X("htmlEndTag", s:orange, "", "")
-	call <SID>X("htmlTagName", s:orange, "", "")
-	call <SID>X("htmlArg", s:brown, "", "")
-	call <SID>X("htmlScriptTag", s:orange, "", "")
-	call <SID>X("htmlLink", s:blue, "", "")
-
-  "XML Highlighting
-	call <SID>X("xmlTag", s:orange, "", "")
-	call <SID>X("xmlEndTag", s:orange, "", "")
-
-
-  call <SID>X("VimwikiHeader1", s:wikired, "", "")
-  call <SID>X("VimwikiHeader2", s:wikiorange, "", "")
-  call <SID>X("VimwikiHeader3", s:wikiyellow, "", "")
-  call <SID>X("VimwikiHeader4", s:wikiaqua, "", "")
-  call <SID>X("VimwikiHeader5", s:wikigreen, "", "")
-  call <SID>X("VimwikiHeader6", s:wikiblue, "", "")
-
-	" Delete Functions
-	delf <SID>X
-	delf <SID>rgb
-	delf <SID>colour
-	delf <SID>rgb_colour
-	delf <SID>rgb_level
-	delf <SID>rgb_number
-	delf <SID>grey_colour
-	delf <SID>grey_level
-	delf <SID>grey_number
+    call <SID>X("Ignore", "666666", "", "")
+    call <SID>X("Keyword", s:orange, "", "")
+    call <SID>X("Conditional", s:brown, "", "")
+	call <SID>X("Keyword", s:red, s:black, "")
 endif
 
