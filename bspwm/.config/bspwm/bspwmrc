@@ -22,7 +22,6 @@ bspc rule -a "*:brave" desktop=^2 follow=off
 bspc rule -a "*:qimgv" state="floating" follow=off
 
 xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rate 240 --pos 1080x500 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --rate 144 --pos 0x0 --rotate right
-~/.config/bspwm/swallow.sh
-killall -q polybar
 polybar
 clipit
+~/.config/bspwm/swallow.sh
